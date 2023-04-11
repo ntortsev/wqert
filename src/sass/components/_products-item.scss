@@ -1,0 +1,19 @@
+.products-item {
+  border: 1px solid black;
+  border-radius: 5%;
+  overflow: hidden;
+
+  div {
+    height: 100px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  img {
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+  }
+}

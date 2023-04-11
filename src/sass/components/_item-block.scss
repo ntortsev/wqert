@@ -1,0 +1,26 @@
+.item-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  height: 500px;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 200px;
+
+    img {
+      width: 400px;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+        align-items: end;
+    }
+  }
+}

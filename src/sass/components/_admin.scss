@@ -1,0 +1,24 @@
+.admin {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__content {
+    flex: 1;
+
+  }
+
+  &__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+
+    li {
+      cursor: pointer;
+      border: 1px solid black;
+      text-align: center;
+    }
+  }
+}
